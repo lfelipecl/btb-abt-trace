@@ -41,6 +41,5 @@ To replicate the study findings, execute the scripts in the following sequence:
 2. classifying_risk.ipynb
 3. apparent_prevalence_apv.ipynb
 4. model_x_field.ipynb
-5. model_graphics.ipynb
 
 All datasets provided in this repository have been de-identified to ensure anonymity, in compliance with Brazilian data protection laws (Lei Geral de Proteção de Dados - LGPD).
