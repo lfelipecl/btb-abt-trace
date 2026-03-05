@@ -37,7 +37,7 @@ The raw datasets are located in the original_data/ directory.
 
 To replicate the study findings, execute the scripts in the following sequence:
 
-1. Modeling.ipynb
+1. modeling.ipynb
 2. classifying_risk.ipynb
 3. apparent_prevalence_apv.ipynb
 4. model_x_field.ipynb
