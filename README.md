@@ -12,26 +12,26 @@ The raw datasets are located in the original_data/ directory.
 
 ## Codebook of original data files and variables:
 
-"| Name | Type | Source | Description |\n",
-    "| :--- | :--- | :--- | :--- |\n",
-    "| **adf** | file | adf.parquet | <br>This file contains data on slaughtered cattle that presented suspicious tuberculosis lesions, including the contact route through the farms where they stayed during their lifetime. <br><br> |\n",
-    "| vig_id | variable | adf/vig_id | <br>Unique identifier for the lesion collection procedure. <br><br> |\n",
-    "| vig_date | variable | adf/vig_date | <br>Collection date of the lesion sample.<br><br> |\n",
-    "| result | variable | adf/result | <br>qPCR (quantitative Polymerase Chain Reaction) confirmation result for bovine tuberculosis (Mycobacterium bovis).<br><br> |\n",
-    "| result_date | variable | adf/result_date | <br>Release date of the laboratory diagnostic result<br><br> |\n",
-    "| bovine_id | variable | adf/bovine_id | <br>Unique identifier of the bovine sampled (also know as sentinel) <br><br> |\n",
-    "| farm_id | variable | adf/farm_id | <br> Unique identifier of the contact farm <br><br> |\n",
-    "| contact_order | variable | adf/contact_order | <br>Sequential order of contact between the sentinel animal and the contact farm, tracked retrospectively from the slaughterhouse back to the animal's birth.<br><br> |\n",
-    "| last_contact | variable | adf/last_contact | <br>Date of the last contact between the animal and the contact farm.<br><br> |\n",
-    "| exposure_duration | variable | adf/exposure_duration | <br>Total period of exposure during which the animal remained on the contact farm.<br><br> |\n",
-    "| herd_size | variable | adf/herd_size | <br>Time-weighted average of the herd size on the contact farm during the exposure period.<br><br> |\n",
-    "| **fex** | file | fex.parquet | <br> This file contains field examination records for all animals within the contact farms. <br><br> |\n",
-    "| farm_id | variable | fex/farm_id | <br> Unique identifier for the farm, consistent with other datasets. <br><br> |\n",
-    "| field_exame_id | variable | fex/field_exame_id | <br> Unique identifier for the field examination. <br><br> |\n",
-    "| field_exame_date | variable | fex/field_exame_date | <br> Date when the field examination was performed. <br><br> |\n",
-    "| pos | variable | fex/pos | <br> Number of animals that tested positive in the field examination. <br><br> |\n",
-    "| nex | variable | fex/nex | <br> Number of animals examined (tested) during the procedure. <br><br> |\n",
-    "| Ntotal | variable | fex/Ntotal | <br> Total herd size on the farm at the date of the examination. <br><br> |"
+| Name | Type | Source | Description |
+| :--- | :--- | :--- | :--- |
+| **adf** | file | adf.parquet | This file contains data on slaughtered cattle that presented suspicious tuberculosis lesions, including the contact route through the farms where they stayed during their lifetime. |
+| vig_id | variable | adf/vig_id | Unique identifier for the lesion collection procedure. |
+| vig_date | variable | adf/vig_date | Collection date of the lesion sample. |
+| result | variable | adf/result | qPCR (quantitative Polymerase Chain Reaction) confirmation result for bovine tuberculosis (Mycobacterium bovis). |
+| result_date | variable | adf/result_date | Release date of the laboratory diagnostic result |
+| bovine_id | variable | adf/bovine_id | Unique identifier of the bovine sampled (also know as sentinel) |
+| farm_id | variable | adf/farm_id | Unique identifier of the contact farm |
+| contact_order | variable | adf/contact_order | Sequential order of contact between the sentinel animal and the contact farm, tracked retrospectively from the slaughterhouse back to the animal's birth. |
+| last_contact | variable | adf/last_contact | Date of the last contact between the animal and the contact farm. |
+| exposure_duration | variable | adf/exposure_duration | Total period of exposure during which the animal remained on the contact farm. |
+| herd_size | variable | adf/herd_size | Time-weighted average of the herd size on the contact farm during the exposure period. |
+| **fex** | file | fex.parquet | This file contains field examination records for all animals within the contact farms. |
+| farm_id | variable | fex/farm_id | Unique identifier for the farm, consistent with other datasets. |
+| field_exame_id | variable | fex/field_exame_id | Unique identifier for the field examination. |
+| field_exame_date | variable | fex/field_exame_date | Date when the field examination was performed. |
+| pos | variable | fex/pos | Number of animals that tested positive in the field examination. |
+| nex | variable | fex/nex | Number of animals examined (tested) during the procedure. |
+| Ntotal | variable | fex/Ntotal | Total herd size on the farm at the date of the examination. |
 
 ## Analysis workflow
 
