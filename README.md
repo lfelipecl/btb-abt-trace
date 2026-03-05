@@ -2,16 +2,12 @@
 
 This repository contains the code and data structure for the paper: "Improving Bovine Tuberculosis Surveillance Through Risk-Based Prioritization of Slaughterhouse Triggered Trace-back Investigations".
 
-Prerequisites
 All necessary packages and dependencies are located in the requirements.txt file. Install them using:
 
-
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Data Structure
 The raw datasets are located in the original_data/ directory.
-
-
 
 
 ## Codebook of original data files and variables:
