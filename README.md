@@ -1,6 +1,6 @@
 ## Bovine Tuberculosis Surveillance: Risk-Based Trace-back Prioritization
 
-This repository contains the code and data structure for the paper [Improving Bovine Tuberculosis Surveillance Through Risk-Based Prioritization of Slaughterhouse-Triggered Trace-back Investigations](https://www.mdpi.com/2076-2615/16/8/1224).
+This repository contains the code and data structure for the paper [Improving Bovine Tuberculosis Surveillance Through Risk-Based Prioritization of Slaughterhouse-Triggered Trace-Back Investigations](https://www.mdpi.com/2076-2615/16/8/1224).
 
 All necessary packages and dependencies are located in the requirements.txt file. Install them using:
 
